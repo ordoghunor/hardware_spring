@@ -1,0 +1,21 @@
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'edu.bbte.idde.ohim2065'
+            artifactId = 'ohim2065-backend'
+            version = '1.0-SNAPSHOT'
+
+            from components.java
+        }
+    }
+}
+dependencies {
+    // https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
+    runtimeOnly 'com.mysql:mysql-connector-j:8.0.31'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.4.2'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.0'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.4.2'
+    implementation group: 'com.zaxxer', name: 'HikariCP', version: '3.4.1'
+    implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.22'
+    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.22'
+}

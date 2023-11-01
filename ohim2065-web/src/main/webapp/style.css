@@ -1,0 +1,84 @@
+h1 {
+    color: #758711;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+
+.form_class {
+    width: 500px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'system-ui';
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+    margin: auto;
+}
+
+.field_class {
+    width: 100%;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 0px;
+    text-indent: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'system-ui';
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+.submit_class {
+    border-style: none;
+    border-radius: 5px;
+    background-color: #FFE6D4;
+    padding: 8px 20px;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+    cursor: pointer;
+}
+
+label {
+    letter-spacing: 3px;
+    font-size: 1rem;
+}
+
+.logout {
+    background:url('https://dh3vbjnk0bnfa.cloudfront.net/static/centralauth/images/btn-login-hover.png') no-repeat 5px 5px #484B4F;
+    width: 100px;
+    cursor:pointer;
+    border-radius:50px;
+    padding:10px 20px 10px 0;
+    color:White;
+    font-size:14px;
+    text-align:left;
+    text-indent:40px;
+    display:block;
+
+    position: absolute;
+    top: 2em;
+    right: 2em;
+
+    /* Animations: */
+    -webkit-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: .4s;
+    -webkit-transition-property: all;
+
+    -moz-transition-timing-function: ease-in-out;
+    -moz-transition-duration: .4s;
+    -moz-transition-property: all;
+}
+
+.logout:hover {
+    background-image: url( 'https://dh3vbjnk0bnfa.cloudfront.net/static/centralauth/images/btn-login.png' );
+    background-position: 65px 5px;
+    text-indent: 15px;
+}

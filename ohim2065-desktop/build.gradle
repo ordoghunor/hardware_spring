@@ -1,0 +1,21 @@
+dependencies {
+    implementation project(':ohim2065-backend')
+}
+
+apply plugin: 'application'
+
+application {
+    mainClassName='edu.bbte.idde.ohim2065.hardware.desktop.Main'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'edu.bbte.idde.ohim2065'
+            artifactId = 'ohim2065-desktop'
+            version = '1.0-SNAPSHOT'
+
+            from components.java
+        }
+    }
+}

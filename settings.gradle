@@ -1,0 +1,6 @@
+rootProject.name = 'lab-ohim2065'
+include 'ohim2065-backend'
+include 'ohim2065-desktop'
+include 'ohim2065-web'
+include 'ohim2065-spring'
+

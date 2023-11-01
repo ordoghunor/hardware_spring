@@ -1,0 +1,7 @@
+daoType: jdbc
+driverClassName: com.mysql.cj.jdbc.Driver
+url: jdbc:mysql://localhost:3306/ohim2065hardwaredb?user=root
+user: root
+password: jk78hj12uigfeRr7832ismr7h
+poolSize: 5
+verzio: True
